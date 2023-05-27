@@ -1,0 +1,17 @@
+.owner{
+  display: flex;
+  flex-direction: row-reverse;  
+}
+.owner div p {
+    background-color: rgb(177, 218, 241);
+    border-radius: 15px 15px 0px 15px;
+     max-width: max-content;
+}
+
+.owner .message-content{
+  align-items: flex-end;
+}
+
+.messages { 
+  height: calc(100vh - 33.5vh );
+}
