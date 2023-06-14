@@ -24,6 +24,26 @@ It is built with React, Tailwind CSS, and Firebase for real-time database functi
 - To send an image, click the image button, select an image from your device, and click send.
 - All chat messages and images will be displayed in real-time.
 
+## Installation
+- Clone the repository: git clone https://github.com/your-username/chat-app.git
+- Navigate to the project directory: cd chat-app
+- Install the dependencies: npm install
+- Set up a Firebase project and obtain your Firebase configuration.
+- Create a .env file in the root directory and add the Firebase configuration information:
+
+Copy code
+```
+REACT_APP_FIREBASE_API_KEY=your_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+REACT_APP_FIREBASE_DATABASE_URL=your_database_url
+REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+REACT_APP_FIREBASE_APP_ID=your_app_id
+```
+- Start the development server: npm start
+- The application will be running at http://localhost:3000.
+
 ## Firebase Configuration
 This chat app uses Firebase for authentication and real-time database functionality. You will need to set up a Firebase project and obtain the configuration information to use in the app. Follow these steps:
 
